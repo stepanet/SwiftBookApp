@@ -23,7 +23,7 @@ struct ContentView : View {
                     
                     } .listRowInsets(EdgeInsets())
                 
-                NavigationButton(destination: FriendsList()) {
+                NavigationLink(destination: FriendsList()) {
                     Text("Наши преподователи")
                 }
                 }.navigationBarTitle(Text("Homepage"))
